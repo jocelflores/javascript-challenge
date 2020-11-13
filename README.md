@@ -33,9 +33,16 @@ You can handle this... right? The planet Earth needs to know what we have found!
 - - -
 
 ### Spoilers below, only read if you would like a hint or are stuck:
-
-
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 The steps contained the code are as follows:
 
