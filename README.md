@@ -1,7 +1,5 @@
 # javascript-challenge
 
-# JavaScript Homework - JavaScript and DOM Manipulation
-
 ## Background
 
 WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! All we need to do now is put this information online for the world to see and then the matter will finally be put to rest.
@@ -23,9 +21,6 @@ You can handle this... right? The planet Earth needs to know what we have found!
 * Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
 - - -
-## Gif of Website:
-
-![](screen-capture.gif)
 
 ### Dataset
 
@@ -37,6 +32,17 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 - - -
 
-### Copyright
+### Spoilers below, only read if you would like a hint or are stuck:
 
-Trilogy Education Services © 2019. All Rights Reserved.
+
+
+
+The steps contained the code are as follows:
+
+- Render the entire data set from the given external file
+- Add an event listener to recognize the user input
+- Use the user input to loop through the data and append the matching entries to a new list
+- Render the filtered entries to a new table
+- Clear the existing tables before rendering a new filtered table
+
+A gif of the site is also included!
