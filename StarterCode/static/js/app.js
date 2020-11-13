@@ -5,7 +5,6 @@ console.log(tableData)
 
 // references
 var tbody = d3.select("tbody");
-
 var clickSearch = d3.select('#filter-btn');
 
 
@@ -35,12 +34,14 @@ clickSearch.on('click', function() {
   var dateSearch = d3.select('#datetime');
   var userInput = dateSearch.property('value');
   console.log(userInput);
-  // prevents table from refreshing to its original state
-  d3.event.preventDefault();
+
 
   // choosing the entries for which the user input date matches the sighting date
   var filteredData = tableData.filter(entries => entries.datetime === userInput);
   console.log(filteredData);
+
+  // prevents table from refreshing to its original state
+    d3.event.preventDefault();
 
   //repeat function above to render table but with FILTERED ENTRIES and not entire list
   filteredData.forEach(function(filteredEntries){
