@@ -14,6 +14,8 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 * Create a basic HTML web page. My version is included here: [index.html](UFO-level-1/index.html).
 
+* A gif of the site is also included if you want to see it in action! [screen-capture.gif](screen-capture.gif)
+
 * Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
 
 * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
@@ -31,6 +33,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
 **Good luck!**
 
 - - -
+
 
 ### Spoilers below, only read if you would like a hint or are stuck:
 <br />
@@ -52,4 +55,3 @@ The steps contained the code are as follows:
 - Render the filtered entries to a new table
 - Clear the existing tables before rendering a new filtered table
 
-A gif of the site is also included!
